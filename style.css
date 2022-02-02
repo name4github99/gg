@@ -1,0 +1,42 @@
+.black {
+  background-color: rgb(5, 5, 5);
+}
+
+.red {
+  background: #98bf21;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.pers {
+  background: #98bf21;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  margin-top: 1%;
+  z-index: -1;
+}
+
+.pers2 {
+  background: #e61506;
+  z-index: -1;
+}
+
+.enemy {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  margin-top: 1%;
+}
+.hide {
+  display: none;
+}
+.black {
+  background-color: black;
+  color: azure;
+}
+
+.finish {
+  display: none;
+}
