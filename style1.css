@@ -1,0 +1,36 @@
+#body1 {
+  background-color: black;
+  position: relative;
+  width: 850px;
+}
+
+#canvas1 {
+  background: blue;
+  border: 5px solid wheat;
+}
+
+.green,
+.dino,
+.red {
+  color: white;
+}
+
+img {
+  display: none;
+}
+
+.dinoBox {
+  color: white;
+}
+
+.direct {
+  font-style: italic;
+}
+
+/*
+#playerImg,
+#enemyImg,
+#bgrImg {
+  display: inline;
+}
+*/

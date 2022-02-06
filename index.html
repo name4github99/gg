@@ -4,24 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style0.css" />
+    <link rel="stylesheet" href="style1.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Play Game! ATOXA</h1>
-    <h1>
-      TRY TO CATCH RED: <em> from 2 to 10</em> <span class="catchA"></span>
-    </h1>
+    <!-- zero -->
+    <div id="body0">
+      <h3>
+        TRY TO CATCH RED: <em> from 2 to 10</em> <span class="catchA"></span>
+      </h3>
+      <button class="gU">Up</button>
+      <button class="gL">Left</button>
+      <button class="gR">Right</button>
+      <button class="gD">Down</button>
+      <div class="pers"></div>
+      <div class="enemy"></div>
+    </div>
+    <script src="script0.js"></script>
 
-    <button class="gU">Up</button>
-    <br />
-    <button class="gL">Left</button>
-    <button class="gR">Right</button>
-    <br />
-    <button class="gD">Down</button>
-    <div class="pers"></div>
-    <div class="enemy"></div>
+    <!-- second -->
+    <hr style="margin-top: 140px" />
+    <div id="body1">
+      <h4 style="color: red">
+        USE: W-<span class="direct">up</span>, D-<span class="direct"
+          >forward</span
+        >, S-<span class="direct">back</span>
+      </h4>
+      <div class="dinoBox">score: <span class="dino">dino</span></div>
+      <!-- <div class="greenBox"><span class="green">green</span></div>
+      <div class="redBox"><span class="red">red</span></div>-->
 
-    <script src="script.js"></script>
+      <canvas id="canvas1"> </canvas>
+      <div>
+        <img
+          id="playerImg"
+          class="greenBox"
+          src="/img/player.png"
+          alt="player"
+        />
+
+        <img id="dinoImg" src="/img/dino.png" alt="dino" />
+        <img id="enemyImg" class="redBox" src="/img/enemy.png" alt="enemy" />
+        <img id="bgImg" src="/img/bg.png" alt="bg" />
+      </div>
+    </div>
+    <script src="script1.js"></script>
+
+    <hr />
+    <p>to be ...</p>
   </body>
 </html>
