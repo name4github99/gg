@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   let dinoHeight = 75;
   let dinoWidth = 75;
 
-  jumpDino = 0.5;
+  jumpDino = 0.05;
   window.addEventListener("keydown", (e) => {
     if (e.key === "w") {
       yPosDino -= 20;
